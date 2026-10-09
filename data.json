@@ -1,6 +1,6 @@
 {
   "success": true,
-  "count": 10,
+  "count": 12,
   "data": [
     {
       "index": 1,
@@ -169,7 +169,7 @@
       "name": "Walking Lunge",
       "description": "A dynamic unilateral leg exercise that improves balance, quad, and glute strength.",
       "categories": ["Legs"],
-      "equipment": "Dumbbells (Optional)",
+      "equipment": "Dumbbells",
       "difficulty": "Intermediate",
       "sets": 3,
       "reps": "12 steps",
@@ -200,6 +200,38 @@
         "Sit on the floor, lean back slightly, and lift feet off the ground.",
         "Rotate torso from side to side bringing weight near the hip."
       ]
-    }
-  ]
-}
+    },
+    {
+      "index": 11,
+      "id": "tricep-dips",
+      "name": "Tricep Dips",
+      "description": "An effective upper body compound movement targeting the triceps, chest, and front shoulders.",
+      "categories": ["Arms", "Chest"],
+      "equipment": "Parallel Bars",
+      "difficulty": "Intermediate",
+      "sets": 3,
+      "reps": "10-12",
+      "duration": "12 min",
+      "calories": "110 kcal",
+      "rating": 4.7,
+      "image": "/logo/banner.png",
+      "instructions": [
+        "Grasp the parallel bars and push yourself up to the starting position.",
+        "Lower your body by bending your elbows until your upper arms are parallel to the floor.",
+        "Push yourself back up to the starting position by straightening your arms."
+      ]
+    },
+    {
+      "index": 12,
+      "id": "lat-pulldown",
+      "name": "Lat Pulldown",
+      "description": "A upper body pulling exercise designed to build lat width and back strength.",
+      "categories": ["Back", "Arms"],
+      "equipment": "Cable Machine",
+      "difficulty": "Beginner",
+      "sets": 4,
+      "reps": "10-12",
+      "duration": "18 min",
+      "calories": "135 kcal",
+      "rating": 4.6,
+      "image":
