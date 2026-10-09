@@ -13,4 +13,4 @@ A simple and lightweight REST API project providing demo workout and fitness JSO
 <div align="center">
 
 ```bash
-[https://raw.githubusercontent.com/Hasibul-Hasan-Santo/fitapi/main/data.json]
+https://raw.githubusercontent.com/Hasibul-Hasan-Santo/fitapi/main/data.json
