@@ -225,7 +225,7 @@
       "index": 12,
       "id": "lat-pulldown",
       "name": "Lat Pulldown",
-      "description": "A upper body pulling exercise designed to build lat width and back strength.",
+      "description": "An upper body pulling exercise designed to build lat width and back strength.",
       "categories": ["Back", "Arms"],
       "equipment": "Cable Machine",
       "difficulty": "Beginner",
@@ -234,4 +234,12 @@
       "duration": "18 min",
       "calories": "135 kcal",
       "rating": 4.6,
-      "image":
+      "image": "/logo/banner.png",
+      "instructions": [
+        "Sit at the pulldown machine and grip the wide bar with palms facing forward.",
+        "Pull the bar down toward your upper chest while squeezing your shoulder blades together.",
+        "Slowly return the bar to the starting position with full extension."
+      ]
+    }
+  ]
+}
