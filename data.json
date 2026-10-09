@@ -1,0 +1,114 @@
+{
+	"success": true,
+	"count": 12,
+	"data": [
+	{
+		"id": "1",
+		"name": "Barbell Bench Press",
+		"category": "Chest",
+		"equipment": "Barbell",
+		"difficulty": "Intermediate",
+		"targetMuscle": "Pectorals",
+		"instructions": "Lie on the bench, grip the barbell slightly wider than shoulder-width, lower it to your mid-chest, and press back up explosively."
+	},
+	{
+		"id": "2",
+		"name": "Conventional Deadlift",
+		"category": "Back",
+		"equipment": "Barbell",
+		"difficulty": "Advanced",
+		"targetMuscle": "Hamstrings & Lower Back",
+		"instructions": "Stand with feet hip-width apart, hinge at the hips to grip the bar, keep your back flat, and drive through the floor to stand tall."
+	},
+	{
+		"id": "3",
+		"name": "Barbell Back Squat",
+		"category": "Legs",
+		"equipment": "Barbell",
+		"difficulty": "Intermediate",
+		"targetMuscle": "Quadriceps & Glutes",
+		"instructions": "Rest the bar across your upper back, unrack, break at the hips and knees to squat deep, then drive back up to the starting position."
+	},
+	{
+		"id": "4",
+		"name": "Overhead Shoulder Press",
+		"category": "Shoulders",
+		"equipment": "Barbell",
+		"difficulty": "Intermediate",
+		"targetMuscle": "Deltoids",
+		"instructions": "Hold the bar at collarbone height, brace your core, and press the weight straight overhead until your arms are fully locked out."
+	},
+	{
+		"id": "5",
+		"name": "Pull-Up",
+		"category": "Back",
+		"equipment": "Bodyweight",
+		"difficulty": "Intermediate",
+		"targetMuscle": "Latissimus Dorsi",
+		"instructions": "Grab the pull-up bar with an overhand grip, pull your chest up to the bar by driving your elbows down, and lower with control."
+	},
+	{
+		"id": "6",
+		"name": "Barbell Bent-Over Row",
+		"category": "Back",
+		"equipment": "Barbell",
+		"difficulty": "Intermediate",
+		"targetMuscle": "Mid-Back & Lats",
+		"instructions": "Hinge forward at the hips with a flat back, pull the barbell towards your lower ribcage, squeeze your shoulder blades, and lower."
+	},
+	{
+		"id": "7",
+		"name": "Dumbbell Lateral Raise",
+		"category": "Shoulders",
+		"equipment": "Dumbbell",
+		"difficulty": "Beginner",
+		"targetMuscle": "Side Deltoids",
+		"instructions": "Stand tall holding dumbbells at your sides, raise your arms out to the sides until parallel with the floor, and lower slowly."
+	},
+	{
+		"id": "8",
+		"name": "Romanian Deadlift",
+		"category": "Legs",
+		"equipment": "Barbell",
+		"difficulty": "Intermediate",
+		"targetMuscle": "Hamstrings",
+		"instructions": "Hold the bar at hip level, push your hips back while keeping legs slightly bent until you feel a stretch in your hamstrings, then return."
+	},
+	{
+		"id": "9",
+		"name": "Incline Dumbbell Press",
+		"category": "Chest",
+		"equipment": "Dumbbell",
+		"difficulty": "Intermediate",
+		"targetMuscle": "Upper Pectorals",
+		"instructions": "Set an incline bench to 30-45 degrees, press the dumbbells up over your chest, and lower them with a controlled stretch."
+	},
+	{
+		"id": "10",
+		"name": "Barbell Bicep Curl",
+		"category": "Arms",
+		"equipment": "Barbell",
+		"difficulty": "Beginner",
+		"targetMuscle": "Biceps",
+		"instructions": "Hold the barbell with an underhand grip, keep your elbows pinned to your sides, curl the weight up to your shoulders, and lower."
+	},
+	{
+		"id": "11",
+		"name": "Tricep Pushdown",
+		"category": "Arms",
+		"equipment": "Cable",
+		"difficulty": "Beginner",
+		"targetMuscle": "Triceps",
+		"instructions": "Attach a straight bar or rope to a high pulley, keep your upper arms steady, and push the attachment down until your arms lock out."
+	},
+	{
+		"id": "12",
+		"name": "Plank",
+		"category": "Core",
+		"equipment": "Bodyweight",
+		"difficulty": "Beginner",
+		"targetMuscle": "Abs & Core",
+		"instructions": "Support your body weight on your forearms and toes, keep your body in a straight line, and engage your core tightly."
+	}
+	]
+}
