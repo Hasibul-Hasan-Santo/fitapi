@@ -1,114 +1,205 @@
 {
-	"success": true,
-	"count": 12,
-	"data": [
-	{
-		"id": "1",
-		"name": "Barbell Bench Press",
-		"category": "Chest",
-		"equipment": "Barbell",
-		"difficulty": "Intermediate",
-		"targetMuscle": "Pectorals",
-		"instructions": "Lie on the bench, grip the barbell slightly wider than shoulder-width, lower it to your mid-chest, and press back up explosively."
-	},
-	{
-		"id": "2",
-		"name": "Conventional Deadlift",
-		"category": "Back",
-		"equipment": "Barbell",
-		"difficulty": "Advanced",
-		"targetMuscle": "Hamstrings & Lower Back",
-		"instructions": "Stand with feet hip-width apart, hinge at the hips to grip the bar, keep your back flat, and drive through the floor to stand tall."
-	},
-	{
-		"id": "3",
-		"name": "Barbell Back Squat",
-		"category": "Legs",
-		"equipment": "Barbell",
-		"difficulty": "Intermediate",
-		"targetMuscle": "Quadriceps & Glutes",
-		"instructions": "Rest the bar across your upper back, unrack, break at the hips and knees to squat deep, then drive back up to the starting position."
-	},
-	{
-		"id": "4",
-		"name": "Overhead Shoulder Press",
-		"category": "Shoulders",
-		"equipment": "Barbell",
-		"difficulty": "Intermediate",
-		"targetMuscle": "Deltoids",
-		"instructions": "Hold the bar at collarbone height, brace your core, and press the weight straight overhead until your arms are fully locked out."
-	},
-	{
-		"id": "5",
-		"name": "Pull-Up",
-		"category": "Back",
-		"equipment": "Bodyweight",
-		"difficulty": "Intermediate",
-		"targetMuscle": "Latissimus Dorsi",
-		"instructions": "Grab the pull-up bar with an overhand grip, pull your chest up to the bar by driving your elbows down, and lower with control."
-	},
-	{
-		"id": "6",
-		"name": "Barbell Bent-Over Row",
-		"category": "Back",
-		"equipment": "Barbell",
-		"difficulty": "Intermediate",
-		"targetMuscle": "Mid-Back & Lats",
-		"instructions": "Hinge forward at the hips with a flat back, pull the barbell towards your lower ribcage, squeeze your shoulder blades, and lower."
-	},
-	{
-		"id": "7",
-		"name": "Dumbbell Lateral Raise",
-		"category": "Shoulders",
-		"equipment": "Dumbbell",
-		"difficulty": "Beginner",
-		"targetMuscle": "Side Deltoids",
-		"instructions": "Stand tall holding dumbbells at your sides, raise your arms out to the sides until parallel with the floor, and lower slowly."
-	},
-	{
-		"id": "8",
-		"name": "Romanian Deadlift",
-		"category": "Legs",
-		"equipment": "Barbell",
-		"difficulty": "Intermediate",
-		"targetMuscle": "Hamstrings",
-		"instructions": "Hold the bar at hip level, push your hips back while keeping legs slightly bent until you feel a stretch in your hamstrings, then return."
-	},
-	{
-		"id": "9",
-		"name": "Incline Dumbbell Press",
-		"category": "Chest",
-		"equipment": "Dumbbell",
-		"difficulty": "Intermediate",
-		"targetMuscle": "Upper Pectorals",
-		"instructions": "Set an incline bench to 30-45 degrees, press the dumbbells up over your chest, and lower them with a controlled stretch."
-	},
-	{
-		"id": "10",
-		"name": "Barbell Bicep Curl",
-		"category": "Arms",
-		"equipment": "Barbell",
-		"difficulty": "Beginner",
-		"targetMuscle": "Biceps",
-		"instructions": "Hold the barbell with an underhand grip, keep your elbows pinned to your sides, curl the weight up to your shoulders, and lower."
-	},
-	{
-		"id": "11",
-		"name": "Tricep Pushdown",
-		"category": "Arms",
-		"equipment": "Cable",
-		"difficulty": "Beginner",
-		"targetMuscle": "Triceps",
-		"instructions": "Attach a straight bar or rope to a high pulley, keep your upper arms steady, and push the attachment down until your arms lock out."
-	},
-	{
-		"id": "12",
-		"name": "Plank",
-		"category": "Core",
-		"equipment": "Bodyweight",
-		"difficulty": "Beginner",
-		"targetMuscle": "Abs & Core",
-		"instructions": "Support your body weight on your forearms and toes, keep your body in a straight line, and engage your core tightly."
-	}
-	]
+  "success": true,
+  "count": 10,
+  "data": [
+    {
+      "index": 1,
+      "id": "barbell-bench-press",
+      "name": "Barbell Bench Press",
+      "description": "A compound press that builds chest thickness, triceps, and pressing power from a stable bench.",
+      "categories": ["Chest", "Arms"],
+      "equipment": "Barbell, Bench",
+      "difficulty": "Intermediate",
+      "sets": 4,
+      "reps": "6-8",
+      "duration": "25 min",
+      "calories": "180 kcal",
+      "rating": 4.8,
+      "image": "/logo/banner.png",
+      "instructions": [
+        "Lie on the bench with eyes under the bar and feet planted.",
+        "Unrack with locked elbows and lower the bar to mid-chest.",
+        "Press up in a slight arc until elbows lock without bouncing.",
+        "Keep shoulder blades pinched and a natural arch in the back."
+      ]
+    },
+    {
+      "index": 2,
+      "id": "pull-up",
+      "name": "Pull-Up",
+      "description": "An essential bodyweight exercise that targets the upper back and biceps for strength and width.",
+      "categories": ["Back", "Arms"],
+      "equipment": "Pull-up Bar",
+      "difficulty": "Intermediate",
+      "sets": 4,
+      "reps": "8-10",
+      "duration": "15 min",
+      "calories": "125 kcal",
+      "rating": 4.7,
+      "image": "/logo/banner.png",
+      "instructions": [
+        "Grab the pull-up bar with an overhand grip slightly wider than shoulder-width.",
+        "Pull your chest up to the bar by driving your elbows down towards your hips.",
+        "Pause briefly at the top before lowering with full control."
+      ]
+    },
+    {
+      "index": 3,
+      "id": "back-squat",
+      "name": "Back Squat",
+      "description": "The king of lower body movements for building leg power, quad strength, and core stability.",
+      "categories": ["Legs", "Core"],
+      "equipment": "Barbell, Rack",
+      "difficulty": "Advanced",
+      "sets": 4,
+      "reps": "5-8",
+      "duration": "30 min",
+      "calories": "240 kcal",
+      "rating": 4.9,
+      "image": "/logo/banner.png",
+      "instructions": [
+        "Rest the bar across your upper back and unrack.",
+        "Break at the hips and knees simultaneously to lower into a deep squat.",
+        "Drive through your heels to return to the standing position."
+      ]
+    },
+    {
+      "index": 4,
+      "id": "overhead-press",
+      "name": "Overhead Press",
+      "description": "A strict vertical pushing movement targeting the shoulders and upper chest.",
+      "categories": ["Shoulders", "Arms"],
+      "equipment": "Barbell",
+      "difficulty": "Intermediate",
+      "sets": 3,
+      "reps": "8-10",
+      "duration": "20 min",
+      "calories": "150 kcal",
+      "rating": 4.6,
+      "image": "/logo/banner.png",
+      "instructions": [
+        "Hold the barbell at collarbone level with a tight core.",
+        "Press the weight straight overhead until your arms are fully extended.",
+        "Lower the bar back to collarbone level with control."
+      ]
+    },
+    {
+      "index": 5,
+      "id": "dumbbell-bicep-curl",
+      "name": "Dumbbell Bicep Curl",
+      "description": "An isolation movement designed to build bicep peak strength and arm definition.",
+      "categories": ["Arms"],
+      "equipment": "Dumbbells",
+      "difficulty": "Beginner",
+      "sets": 3,
+      "reps": "10-12",
+      "duration": "12 min",
+      "calories": "80 kcal",
+      "rating": 4.5,
+      "image": "/logo/banner.png",
+      "instructions": [
+        "Stand tall holding dumbbells at your sides.",
+        "Keep elbows close to your torso and curl the weights towards your shoulders.",
+        "Squeeze at the top and lower slowly."
+      ]
+    },
+    {
+      "index": 6,
+      "id": "hollow-body-plank",
+      "name": "Hollow-Body Plank",
+      "description": "A core isometric exercise that strengthens abdominals and pelvic stability.",
+      "categories": ["Core"],
+      "equipment": "Bodyweight",
+      "difficulty": "Beginner",
+      "sets": 3,
+      "reps": "45 sec",
+      "duration": "10 min",
+      "calories": "60 kcal",
+      "rating": 4.4,
+      "image": "/logo/banner.png",
+      "instructions": [
+        "Support your weight on forearms and toes.",
+        "Engage your core and keep your back completely flat.",
+        "Hold the posture firmly without letting hips sag."
+      ]
+    },
+    {
+      "index": 7,
+      "id": "conventional-deadlift",
+      "name": "Conventional Deadlift",
+      "description": "A total body posterior-chain movement building hamstrings, glutes, and back power.",
+      "categories": ["Back", "Legs"],
+      "equipment": "Barbell",
+      "difficulty": "Advanced",
+      "sets": 4,
+      "reps": "5",
+      "duration": "28 min",
+      "calories": "220 kcal",
+      "rating": 4.9,
+      "image": "/logo/banner.png",
+      "instructions": [
+        "Stand with feet hip-width apart and mid-foot under the bar.",
+        "Hinge at hips, grip the bar, flatten back, and pull chest up.",
+        "Drive through legs to stand upright locking hips at top."
+      ]
+    },
+    {
+      "index": 8,
+      "id": "push-up",
+      "name": "Push-Up",
+      "description": "A classic bodyweight exercise targeting chest, shoulders, and triceps.",
+      "categories": ["Chest", "Arms", "Core"],
+      "equipment": "Bodyweight",
+      "difficulty": "Beginner",
+      "sets": 3,
+      "reps": "15-20",
+      "duration": "10 min",
+      "calories": "90 kcal",
+      "rating": 4.5,
+      "image": "/logo/banner.png",
+      "instructions": [
+        "Place hands shoulder-width apart on the ground.",
+        "Lower body until chest almost touches the floor.",
+        "Push forcefully back to starting plank position."
+      ]
+    },
+    {
+      "index": 9,
+      "id": "walking-lunge",
+      "name": "Walking Lunge",
+      "description": "A dynamic unilateral leg exercise that improves balance, quad, and glute strength.",
+      "categories": ["Legs"],
+      "equipment": "Dumbbells (Optional)",
+      "difficulty": "Intermediate",
+      "sets": 3,
+      "reps": "12 steps",
+      "duration": "15 min",
+      "calories": "120 kcal",
+      "rating": 4.6,
+      "image": "/logo/banner.png",
+      "instructions": [
+        "Step forward with one leg and lower hips until both knees bend at 90 degrees.",
+        "Push through front heel to step forward into the next stride."
+      ]
+    },
+    {
+      "index": 10,
+      "id": "russian-twist",
+      "name": "Russian Twist",
+      "description": "A rotational core exercise that targets the oblique muscles.",
+      "categories": ["Core"],
+      "equipment": "Medicine Ball",
+      "difficulty": "Beginner",
+      "sets": 3,
+      "reps": "20 twists",
+      "duration": "8 min",
+      "calories": "70 kcal",
+      "rating": 4.3,
+      "image": "/logo/banner.png",
+      "instructions": [
+        "Sit on the floor, lean back slightly, and lift feet off the ground.",
+        "Rotate torso from side to side bringing weight near the hip."
+      ]
+    }
+  ]
 }
