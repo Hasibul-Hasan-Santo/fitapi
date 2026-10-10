@@ -3,8 +3,7 @@
   "count": 12,
   "data": [
     {
-      "index": 1,
-      "id": "barbell-bench-press",
+      "id": 1,
       "name": "Barbell Bench Press",
       "description": "A compound press that builds chest thickness, triceps, and pressing power from a stable bench.",
       "categories": ["Chest", "Arms"],
@@ -24,8 +23,7 @@
       ]
     },
     {
-      "index": 2,
-      "id": "pull-up",
+      "id": 2,
       "name": "Pull-Up",
       "description": "An essential bodyweight exercise that targets the upper back and biceps for strength and width.",
       "categories": ["Back", "Arms"],
@@ -44,8 +42,7 @@
       ]
     },
     {
-      "index": 3,
-      "id": "back-squat",
+      "id": 3,
       "name": "Back Squat",
       "description": "The king of lower body movements for building leg power, quad strength, and core stability.",
       "categories": ["Legs", "Core"],
@@ -64,8 +61,7 @@
       ]
     },
     {
-      "index": 4,
-      "id": "overhead-press",
+      "id": 4,
       "name": "Overhead Press",
       "description": "A strict vertical pushing movement targeting the shoulders and upper chest.",
       "categories": ["Shoulders", "Arms"],
@@ -84,8 +80,7 @@
       ]
     },
     {
-      "index": 5,
-      "id": "dumbbell-bicep-curl",
+      "id": 5,
       "name": "Dumbbell Bicep Curl",
       "description": "An isolation movement designed to build bicep peak strength and arm definition.",
       "categories": ["Arms"],
@@ -104,8 +99,7 @@
       ]
     },
     {
-      "index": 6,
-      "id": "hollow-body-plank",
+      "id": 6,
       "name": "Hollow-Body Plank",
       "description": "A core isometric exercise that strengthens abdominals and pelvic stability.",
       "categories": ["Core"],
@@ -124,8 +118,7 @@
       ]
     },
     {
-      "index": 7,
-      "id": "conventional-deadlift",
+      "id": 7,
       "name": "Conventional Deadlift",
       "description": "A total body posterior-chain movement building hamstrings, glutes, and back power.",
       "categories": ["Back", "Legs"],
@@ -144,8 +137,7 @@
       ]
     },
     {
-      "index": 8,
-      "id": "push-up",
+      "id": 8,
       "name": "Push-Up",
       "description": "A classic bodyweight exercise targeting chest, shoulders, and triceps.",
       "categories": ["Chest", "Arms", "Core"],
@@ -164,8 +156,7 @@
       ]
     },
     {
-      "index": 9,
-      "id": "walking-lunge",
+      "id": 9,
       "name": "Walking Lunge",
       "description": "A dynamic unilateral leg exercise that improves balance, quad, and glute strength.",
       "categories": ["Legs"],
@@ -183,8 +174,7 @@
       ]
     },
     {
-      "index": 10,
-      "id": "russian-twist",
+      "id": 10,
       "name": "Russian Twist",
       "description": "A rotational core exercise that targets the oblique muscles.",
       "categories": ["Core"],
@@ -194,52 +184,4 @@
       "reps": "20 twists",
       "duration": "8 min",
       "calories": "70 kcal",
-      "rating": 4.3,
-      "image": "/logo/banner.png",
-      "instructions": [
-        "Sit on the floor, lean back slightly, and lift feet off the ground.",
-        "Rotate torso from side to side bringing weight near the hip."
-      ]
-    },
-    {
-      "index": 11,
-      "id": "tricep-dips",
-      "name": "Tricep Dips",
-      "description": "An effective upper body compound movement targeting the triceps, chest, and front shoulders.",
-      "categories": ["Arms", "Chest"],
-      "equipment": "Parallel Bars",
-      "difficulty": "Intermediate",
-      "sets": 3,
-      "reps": "10-12",
-      "duration": "12 min",
-      "calories": "110 kcal",
-      "rating": 4.7,
-      "image": "/logo/banner.png",
-      "instructions": [
-        "Grasp the parallel bars and push yourself up to the starting position.",
-        "Lower your body by bending your elbows until your upper arms are parallel to the floor.",
-        "Push yourself back up to the starting position by straightening your arms."
-      ]
-    },
-    {
-      "index": 12,
-      "id": "lat-pulldown",
-      "name": "Lat Pulldown",
-      "description": "An upper body pulling exercise designed to build lat width and back strength.",
-      "categories": ["Back", "Arms"],
-      "equipment": "Cable Machine",
-      "difficulty": "Beginner",
-      "sets": 4,
-      "reps": "10-12",
-      "duration": "18 min",
-      "calories": "135 kcal",
-      "rating": 4.6,
-      "image": "/logo/banner.png",
-      "instructions": [
-        "Sit at the pulldown machine and grip the wide bar with palms facing forward.",
-        "Pull the bar down toward your upper chest while squeezing your shoulder blades together.",
-        "Slowly return the bar to the starting position with full extension."
-      ]
-    }
-  ]
-}
+      "rating": 4.3
